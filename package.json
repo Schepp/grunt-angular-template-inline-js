@@ -1,7 +1,7 @@
 {
   "name": "grunt-schepp-angular-template-inline-js",
   "description": "A grunt task runner for angular-template-inline-js",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "repository": {
     "type": "git",
     "url": "https://github.com/Schepp/grunt-angular-template-inline-js.git"
