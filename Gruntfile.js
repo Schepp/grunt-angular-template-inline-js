@@ -1,8 +1,8 @@
 /*
- * grunt-angular-template-inline-js
- * https://github.com/scriby/grunt-angular-template-inline-js
+ * schepp-grunt-angular-template-inline-js
+ * https://github.com/Schepp/grunt-angular-template-inline-js
  *
- * Copyright (c) 2014 scriby
+ * Copyright (c) 2014 Schepp
  * Licensed under the MIT license.
  */
 
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    angular_template_inline_js: {
+    schepp_angular_template_inline_js: {
       simple: {
         src: 'test/fixtures/simple.js',
         dest: 'tmp/fixtures/simple.js'
@@ -65,10 +65,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
+  grunt.loadNpmTasks('grunt-release');
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'angular_template_inline_js', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'schepp_angular_template_inline_js', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

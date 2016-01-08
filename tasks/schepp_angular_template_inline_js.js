@@ -1,6 +1,6 @@
 /*
- * grunt-angular-template-inline-js
- * https://github.com/scriby/grunt-angular-template-inline-js
+ * grunt-schepp-angular-template-inline-js
+ * https://github.com/Schepp/grunt-angular-template-inline-js
  *
  * Copyright (c) 2014 scriby
  * Licensed under the MIT license.
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('schepp-angular_template_inline_js', 'A grunt task runner for angular-template-inline-js', function() {
+  grunt.registerMultiTask('schepp_angular_template_inline_js', 'A grunt task runner for angular-template-inline-js', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       key: 'templateUrl'

@@ -24,7 +24,7 @@ var grunt = require('grunt');
 
 var SIMPLE_RESULT = "{ template: ('./simple.html', 'simple contents' + '') }";
 
-exports.angular_template_inline_js = {
+exports.schepp_angular_template_inline_js = {
   setUp: function(done) {
     // setup here if necessary
     done();
