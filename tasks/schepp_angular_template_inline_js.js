@@ -8,14 +8,14 @@
 'use strict';
 
 var path = require('path');
-var compiler = require('angular-template-inline-js');
+var compiler = require('schepp-angular-template-inline-js');
 
 module.exports = function(grunt) {
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('angular_template_inline_js', 'A grunt task runner for angular-template-inline-js', function() {
+  grunt.registerMultiTask('schepp-angular_template_inline_js', 'A grunt task runner for angular-template-inline-js', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       key: 'templateUrl'
